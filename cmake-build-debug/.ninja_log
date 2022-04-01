@@ -1,0 +1,22 @@
+# ninja log v5
+9	5350	6703609436175307	CMakeFiles/Japanese_Crosswords_Solver.dir/main.cpp.obj	933d57f34e430faf
+5351	6194	6703609444495916	Japanese_Crosswords_Solver.exe	a25e2bbcac7d45b7
+19	2977	6703604851211380	CMakeFiles/Japanese_Crosswords_Solver.dir/Nonogram.cpp.obj	c7e72f30dd7f45f7
+86	5133	6704201856067044	CMakeFiles/Japanese_Crosswords_Solver.dir/BMPWriter.cpp.obj	650e2caf6f323076
+9	8753	6704201892330397	CMakeFiles/Japanese_Crosswords_Solver.dir/main.cpp.obj	933d57f34e430faf
+8754	10803	6704201912925553	Japanese_Crosswords_Solver.exe	b2c0aaf80f3f6779
+22	1750	6704206029282110	CMakeFiles/Japanese_Crosswords_Solver.dir/Nonogram.cpp.obj	c7e72f30dd7f45f7
+58	2427	6704206036125676	CMakeFiles/Japanese_Crosswords_Solver.dir/BMPWriter.cpp.obj	650e2caf6f323076
+2428	3506	6704206046736269	Japanese_Crosswords_Solver.exe	b2c0aaf80f3f6779
+9	1494	6704208399480735	CMakeFiles/Japanese_Crosswords_Solver.dir/BMPWriter.cpp.obj	650e2caf6f323076
+1495	2512	6704208409452073	Japanese_Crosswords_Solver.exe	b2c0aaf80f3f6779
+12	2109	6704209081257443	CMakeFiles/Japanese_Crosswords_Solver.dir/BMPWriter.cpp.obj	650e2caf6f323076
+2110	3205	6704209092068223	Japanese_Crosswords_Solver.exe	b2c0aaf80f3f6779
+11	2601	6704210330476231	CMakeFiles/Japanese_Crosswords_Solver.dir/BMPWriter.cpp.obj	650e2caf6f323076
+2603	3962	6704210344224984	Japanese_Crosswords_Solver.exe	b2c0aaf80f3f6779
+42	3068	6704217466186575	CMakeFiles/Japanese_Crosswords_Solver.dir/Nonogram.cpp.obj	c7e72f30dd7f45f7
+47	3357	6704217469699974	CMakeFiles/Japanese_Crosswords_Solver.dir/BMPWriter.cpp.obj	650e2caf6f323076
+11	6741	6704217503782925	CMakeFiles/Japanese_Crosswords_Solver.dir/main.cpp.obj	933d57f34e430faf
+6742	7715	6704217513381406	Japanese_Crosswords_Solver.exe	b2c0aaf80f3f6779
+9	1767	6704219822439509	CMakeFiles/Japanese_Crosswords_Solver.dir/BMPWriter.cpp.obj	650e2caf6f323076
+1769	2788	6704219832468713	Japanese_Crosswords_Solver.exe	b2c0aaf80f3f6779
