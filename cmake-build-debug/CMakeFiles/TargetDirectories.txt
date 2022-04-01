@@ -1,3 +1,0 @@
-C:/Users/User/CLionProjects/Japanese-Crosswords-Solver/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/User/CLionProjects/Japanese-Crosswords-Solver/cmake-build-debug/CMakeFiles/Japanese_Crosswords_Solver.dir
-C:/Users/User/CLionProjects/Japanese-Crosswords-Solver/cmake-build-debug/CMakeFiles/rebuild_cache.dir
