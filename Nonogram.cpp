@@ -29,6 +29,18 @@ void Nonogram::Increase(size_t coefficient) {
     matrix_ = matrix;
 }
 
+size_t Nonogram::GetWidth() const {
+    return width_;
+}
+
+size_t Nonogram::GetHeight() const {
+    return height_;
+}
+
+int Nonogram::GetCell(size_t i, size_t j) const {
+    return matrix_[i][j];
+}
+
 bool Nonogram::CanMakeCorrect(std::vector<int> &correct, std::vector<int> &current) {
     std::vector<size_t> black_pref(current.size() + 1, 0);
     std::vector<size_t> white_pref(current.size() + 1, 0);

@@ -10,12 +10,19 @@ public:
 
     void Increase(size_t coefficient);
 
+    [[nodiscard]] size_t GetWidth() const;
+
+    [[nodiscard]] size_t GetHeight() const;
+
+    [[nodiscard]] int GetCell(size_t i, size_t j) const;
+
+private:
     std::vector<std::vector<int>> matrix_;
     std::vector<std::vector<int>> rows_;
     std::vector<std::vector<int>> cols_;
     size_t width_ = 0;
     size_t height_ = 0;
-private:
+
     static bool CanMakeCorrect(std::vector<int> &correct, std::vector<int> &current);
 
     void TryPaintCell(size_t i, size_t j);

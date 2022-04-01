@@ -18,8 +18,8 @@ void WriteIntToHeader(std::vector<unsigned char> &header, size_t index, int valu
 }
 
 void UpdateHeader(const Nonogram &nonogram, std::vector<unsigned char> &header) {
-    size_t width = nonogram.width_;
-    size_t height = nonogram.height_;
+    size_t width = nonogram.GetWidth();
+    size_t height = nonogram.GetHeight();
     WriteIntToHeader(header, 18, static_cast<int>(width));
     WriteIntToHeader(header, 22, static_cast<int>(height));
     size_t bitmap_size = ((3 * width + 3) / 4) * 4 * height;
@@ -47,13 +47,13 @@ void Write(const std::string &path, const Nonogram &nonogram) {
         out_stream << header[i];
     }
 
-    size_t paddings = (4 - (3 * nonogram.width_) % 4) % 4;
+    size_t paddings = (4 - (3 * nonogram.GetWidth()) % 4) % 4;
 
-    for (size_t i = 0; i < nonogram.height_; ++i) {
-        for (size_t j = 0; j < nonogram.width_; ++j) {
-            unsigned char cell = nonogram.matrix_[nonogram.height_ - i - 1][j] == 1 ? BLACK_CELL : WHITE_CELL;
+    for (size_t i = 0; i < nonogram.GetHeight(); ++i) {
+        for (size_t j = 0; j < nonogram.GetWidth(); ++j) {
+            unsigned char cell = nonogram.GetCell(nonogram.GetHeight() - i - 1, j) == 1 ? BLACK_CELL : WHITE_CELL;
             out_stream << cell << cell << cell;
-            if (nonogram.width_ - j == 1) {
+            if (nonogram.GetWidth() - j == 1) {
                 unsigned char padding = 0;
                 for (size_t u = 0; u < paddings; ++u) {
                     out_stream << padding;
