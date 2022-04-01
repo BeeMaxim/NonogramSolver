@@ -17,11 +17,6 @@ public:
     [[nodiscard]] int GetCell(size_t i, size_t j) const;
 
 private:
-    std::vector<std::vector<int>> matrix_;
-    std::vector<std::vector<int>> rows_;
-    std::vector<std::vector<int>> cols_;
-    size_t width_ = 0;
-    size_t height_ = 0;
 
     static bool CanMakeCorrect(std::vector<int> &correct, std::vector<int> &current);
 
@@ -32,4 +27,10 @@ private:
     [[nodiscard]] std::vector<int> GetColumn(size_t i) const;
 
     [[nodiscard]] std::vector<int> GetRow(size_t i) const;
+
+    std::vector<std::vector<int>> matrix_;
+    std::vector<std::vector<int>> rows_;
+    std::vector<std::vector<int>> cols_;
+    size_t width_ = 0;
+    size_t height_ = 0;
 };
